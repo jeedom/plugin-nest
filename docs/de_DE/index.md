@@ -1,82 +1,82 @@
-Le plugin Nest permet de piloter le thermostat Nest et de récupérer les
-informations du Nest Protect.
 
-> **IMPORTANT**
+.
+
+> **Wichtig**
 >
->Il n'y a pas d'API pour le Nest E en europe. Ce plugin ne permet donc pas de piloter un thermostat Nest E en europe.
+>. .
 
-> **IMPORTANT**
+> **Wichtig**
 >
-> Il n'y a pas de remonté en temps réel (juste une synchronisation toute les 15min), ce plugin ne peut donc etre utilisé pour avoir une alerte en temps réel en cas d'incendie (nest protect)
+> 
 
-Plugin-Konfiguration
+Plugin Konfiguration 
 =======================
 
-Une fois le plugin installé, il vous faut renseigner vos informations de
-connexion Nest :
 
--   **Nom d’utilisateur** : votre nom d’utilisateur Nest (souvent c’est
-    votre adresse mail)
+ :
 
--   **Mot de passe** : mot de passe de votre compte Nest
+-   **Benutzername** : 
+    
 
--   **Synchronisieren** : ermöglicht das Synchronisieren von Jeedom mit Ihrem 
-    Nest pour découvrir automatiquement vos équipements Nest. A faire
-    après avoir sauvegardé les paramètres précedent.
+-   **Passwort** : 
 
-Gerätekonfiguration
+-   **Synchronize** : 
+    . 
+    .
+
+Gerätekonfiguration 
 =============================
 
-La configuration des équipements Nest est accessible à partir du menu
-plugin puis communication :
 
-Sie finden hier die ganze Konfiguration von ihrem Gerät :
+ :
 
--   **Nom de l’équipement Nest** : nom de votre équipement Nest
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Eltern Objekt** : gibt das übergeordnete Objekt an, zu dem das
-    Gerät gehört
+-   **** : 
 
--   **Aktivieren** : ermöglicht es Ihnen, Ihre Gereäte zu aktivieren
+-   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
+    Ausrüstung
 
--   **Sichtbar** : macht es auf dem Armaturenbrett sichtbar
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv
 
--   ** ** Kategorie: Gerätekategorien (es kann gehören
-    plusieurs catégories)
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar
 
-Sur la gauche vous retrouvez :
+-   **Kategorie** : Gerätekategorien (es kann gehören
+    mehrere Kategorien)
 
--   **Type** : le type de votre Nest
+ :
 
--   **ID** : l’ID de votre équipement chez Nest
+-   **Typ** : 
 
--   **IP** : l’IP de votre équipement Nest
+-   **Identifikation** : 
 
--   **MAC** : l’adresse MAC de votre équipement Nest
+-   **IP** : 
 
--   **Batterie** : la batterie (en mV)
+-   **MAC** : 
 
--   **Santé** : santé de votre Nest (0 ⇒ OK, 1 ⇒ NOK (pas OK))
+-   **Batterie** : 
 
--   **Remplacer le** : date de remplacement des piles
+-   **Gesundheit** : 
 
--   **Dernière mise à jour** : date de dernière mise à jour des info
-    (sur un Protect c’est une fois toutes les 24h)
+-   **** : 
 
--   **Dernier test** : date de dernier test (Protect seulement)
+-   **Letztes Update** : 
+    
 
-Im unteren Bereich finden sie eine Liste der Befehle :
+-   **** : 
 
--   Der Name, der auf dem Armaturenbrett angezeigt wird
+Nachfolgend finden Sie die Liste der Bestellungen :
 
--   Chronik : erlaubt das Archivieren der Daten
+-   Der im Dashboard angezeigte Name
 
--   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
-    Konfiguration des Befehls anzuzeigen (Methode der
-    Archivierung, Widget ...)
+-   Chronik : ermöglicht das Historisieren der Daten
 
--   Test: prüft den Befehl
+-   erweiterte Konfiguration (kleine gekerbte Räder) : Anzeigen
+    die erweiterte Konfiguration des Befehls (Methode
+    Geschichte, Widget…)
 
--   supprimer (signe -) : permet de supprimer la commande
+-   Test : Wird zum Testen des Befehls verwendet
+
+-   löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
 
 

@@ -1,16 +1,12 @@
 {
-    "plugin_info\/configuration.php": {
+    "plugins\/nest\/plugin_info\/configuration.php": {
         "Nom d'utilisateur": "Nom d'utilisateur",
         "Mot de passe": "Mot de passe",
         "Synchroniser": "Synchroniser",
         "Synchroniser mes équipements": "Synchroniser mes équipements",
         "Synchronisation réussie": "Synchronisation réussie"
     },
-    "desktop\/js\/nest.js": {
-        "Historiser": "Historiser",
-        "Tester": "Tester"
-    },
-    "desktop\/php\/nest.php": {
+    "plugins\/nest\/desktop\/php\/nest.php": {
         "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Mes équipements Nest": "Mes équipements Nest",
         "Vous n'avez encore Nest de configuré, allez sur la page Générale -> Plugins, configurez votre compte Nest et sauvegardez pour voir apparaitre vos Nest": "Vous n'avez encore Nest de configuré, allez sur la page Générale -> Plugins, configurez votre compte Nest et sauvegardez pour voir apparaitre vos Nest",
@@ -48,11 +44,15 @@
         "Alimenté": "Alimenté",
         "Options": "Options"
     },
-    "core\/ajax\/nest.ajax.php": {
+    "plugins\/nest\/desktop\/js\/nest.js": {
+        "Historiser": "Historiser",
+        "Tester": "Tester"
+    },
+    "plugins\/nest\/core\/ajax\/nest.ajax.php": {
         "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
     },
-    "core\/class\/nest.class.php": {
+    "plugins\/nest\/core\/class\/nest.class.php": {
         "Aucun nom d\\'utilisateur ou mot de passe défini": "Aucun nom d\\'utilisateur ou mot de passe défini",
         "Rafraîhir": "Rafraîhir",
         "Température": "Température",
