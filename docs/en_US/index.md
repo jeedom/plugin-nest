@@ -1,69 +1,69 @@
+The Nest plugin allows you to control the Nest thermostat and retrieve
+Nest Protect information.
 
-.
-
-> **Important**
+> **IMPORTANT**
 >
->. .
+>There is no API for Nest E in Europe. This plugin therefore does not allow you to control a Nest E thermostat in Europe.
 
-> **Important**
+> **IMPORTANT**
 >
-> 
+> There is no real-time feedback (just synchronization every 15 min), so this plugin cannot be used to have a real-time fire alarm (nest protect)
 
 Plugin configuration 
 =======================
 
+Once the plugin is installed, you need to fill in your information
+Nest login :
 
- :
+-   **Username** : your Nest username (often it's
+    Your email)
 
--   **Username** : 
-    
+-   **Password** : your Nest account password
 
--   **Password** : 
-
--   **Synchronize** : 
-    . 
-    .
+-   **Synchroniser** : allows you to synchronize Jeedom with your account
+    Nest to automatically discover your Nest equipment. To do
+    after saving the previous settings.
 
 Equipment configuration 
 =============================
 
-
- :
+Nest equipment configuration is accessible from the menu
+plugin then communication :
 
 Here you find all the configuration of your equipment :
 
--   **** : 
+-   **Nest equipment name** : name of your Nest device
 
 -   **Parent object** : indicates the parent object to which belongs
     equipment
 
--   **Activate** : makes your equipment active
+-   **Activer** : makes your equipment active
 
 -   **Visible** : makes it visible on the dashboard
 
 -   **Category** : equipment categories (it may belong to
     multiple categories)
 
- :
+On the left you find :
 
--   **Type** : 
+-   **Type** : your Nest type
 
--   **ID** : 
+-   **ID** : your Nest Equipment ID
 
--   **IP** : 
+-   **IP** : your Nest Equipment’s IP
 
--   **Mac** : 
+-   **MAC** : Mac address of your Nest device
 
--   **Drums** : 
+-   **Batterie** : the battery (in mV)
 
--   **Health** : 
+-   **Santé** : health of your Nest (0 ⇒ OK, 1 ⇒ NOK (not OK))
 
--   **** : 
+-   **Replace the** : battery replacement date
 
--   **Last update** : 
-    
+-   **Last update** : date of last update of info
+    (on a Protect it is once every 24h)
 
--   **** : 
+-   **Last test** : date of last test (Protect only)
 
 Below you find the list of orders :
 

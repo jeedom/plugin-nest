@@ -1,69 +1,69 @@
+Mit dem Nest-Plugin können Sie den Nest-Thermostat steuern und abrufen
+Nest Protect-Informationen.
 
-.
-
-> **Wichtig**
+> **IMPORTANT**
 >
->. .
+>In Europa gibt es keine API für Nest E.. Mit diesem Plugin können Sie daher keinen Nest E-Thermostat in Europa steuern.
 
-> **Wichtig**
+> **IMPORTANT**
 >
-> 
+> Es gibt keine Echtzeit-Rückmeldung (nur Synchronisation alle 15 Minuten), daher kann dieses Plugin nicht verwendet werden, um im Brandfall eine Echtzeit-Warnung zu erhalten (Nestschutz).
 
 Plugin Konfiguration 
 =======================
 
+Sobald das Plugin installiert ist, müssen Sie Ihre Informationen eingeben
+Nest Login :
 
- :
+-   **Benutzername** : Ihr Nest-Benutzername (oft ist es
+    Ihre E-Mail-Adresse)
 
--   **Benutzername** : 
-    
+-   **Passwort** : Ihr Nest-Konto-Passwort
 
--   **Passwort** : 
-
--   **Synchronize** : 
-    . 
-    .
+-   **Synchroniser** : ermöglicht es Ihnen, Jeedom mit Ihrem Konto zu synchronisieren
+    Nest, um Ihre Nest-Ausrüstung automatisch zu erkennen. Zu tun
+    nach dem Speichern der vorherigen Einstellungen.
 
 Gerätekonfiguration 
 =============================
 
-
- :
+Die Konfiguration der Nestausrüstung ist über das Menü zugänglich
+Plugin dann Kommunikation :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **** : 
+-   **Name der Nestausrüstung** : Name Ihres Nest-Geräts
 
 -   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
     Ausrüstung
 
--   **Aktivieren** : macht Ihre Ausrüstung aktiv
+-   **Activer** : macht Ihre Ausrüstung aktiv
 
--   **Sichtbar** : macht es auf dem Dashboard sichtbar
+-   **Visible** : macht es auf dem Dashboard sichtbar
 
 -   **Kategorie** : Gerätekategorien (es kann gehören
     mehrere Kategorien)
 
- :
+Links finden Sie :
 
--   **Typ** : 
+-   **Type** : Ihr Nest-Typ
 
--   **Identifikation** : 
+-   **ID** : Ihre Nest Equipment Identifikation
 
--   **IP** : 
+-   **IP** : IP Ihres Nest-Geräts
 
--   **MAC** : 
+-   **MAC** : MAC-Adresse Ihres Nest-Geräts
 
--   **Batterie** : 
+-   **Batterie** : die Batterie (in mV)
 
--   **Gesundheit** : 
+-   **Santé** : Gesundheit Ihres Nestes (0 ⇒ OK, 1 ⇒ NOK (nicht OK))
 
--   **** : 
+-   **Ersetzen Sie die** : Datum des Batteriewechsels
 
--   **Letztes Update** : 
-    
+-   **Letztes Update** : Datum der letzten Aktualisierung der Informationen
+    (auf einem Protect ist es einmal alle 24 Stunden)
 
--   **** : 
+-   **Letzter Test** : Datum des letzten Tests (nur schützen)
 
 Nachfolgend finden Sie die Liste der Bestellungen :
 
