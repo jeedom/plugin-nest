@@ -48,7 +48,7 @@ Links finden Sie :
 
 -   **Type** : Ihr Nest-Typ
 
--   **ID** : Ihre Nest Equipment Identifikation
+-   **ID** : Ihre Nest Equipment ID
 
 -   **IP** : IP Ihres Nest-Geräts
 
